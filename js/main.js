@@ -6,6 +6,11 @@
 
     $('.scrollspy').scrollSpy();   
     $(".button-collapse").sideNav();
+    $('.slider').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  autoplay: true;
+    });
   });
 
 // function checkForScroll(){
