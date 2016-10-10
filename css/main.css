@@ -1,0 +1,10 @@
+body{
+	font-family:'Source Sans Pro', sans-serif;
+}
+.icon:before{
+	content: '\f215';
+	font: normal 16px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
