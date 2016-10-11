@@ -1,10 +1,17 @@
 body{
 	font-family:'Source Sans Pro', sans-serif;
+	padding-top:70px;
 }
-.icon:before{
+.instagram-icon:before{
 	content: '\f215';
 	font: normal 16px/1 'Genericons';
 	display: inline-block;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothi	ng: grayscale;
+}
+#nav-logo{
+	color:white;
+}
+.white-text{
+	color:white;
 }
