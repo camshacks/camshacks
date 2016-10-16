@@ -24,7 +24,7 @@ div{
 }
 
 .hero {
-background-image:url('http://a5.files.blazepress.com/image/upload/MTI4OTkyNzMxNDM4NjQxMTIy.gif');
+background-image:url('https://media.giphy.com/media/3oAt1OlUKM1flwPz1K/giphy.gif');
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -171,6 +171,15 @@ p {
 .light{
 	font-weight: 300;
 }
-.blue{
+.belizeHole{
 	background-color: #2980b9;
+}
+#apply{
+	padding-bottom: 10px;
+}
+#hero-subtext{
+	font-weight: 200;
+}
+#about-text{
+	font-size:16px;
 }
