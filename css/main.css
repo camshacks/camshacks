@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 72px;
 	font-weight: 700;
-
+	padding-top:10px;
 }
 h2 {
 	font-size: 30px;
@@ -176,7 +176,7 @@ p {
 	background-color: #2980b9;
 }
 #apply{
-	padding-bottom: 10px;
+	padding-bottom: 1em;
 }
 #hero-subtext{
 	font-weight: 200;
