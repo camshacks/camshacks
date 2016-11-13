@@ -177,7 +177,16 @@ p {
 	background-color: #2980b9;
 }
 #apply{
-	padding-bottom: 1em;
+	height:50vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#about{
+	height:40vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 #hero-subtext{
 	font-weight: 200;
@@ -185,10 +194,17 @@ p {
 #about-text{
 	font-size:16px;
 }
+#notifyheading{
+	padding-bottom:10rem;
+}
 #footer{
-	height:10vh;
 	bottom: 0;
 	background-color:#2980b9;
+	padding:0;
+	margin:0;
+}
+#applybtn{
+	padding-top: 50px;
 }
 i{
 	padding-top: 2.5vh;
@@ -209,7 +225,16 @@ hr{
 	width:25%;
 }
 #sponsor{
-	padding-bottom: 10px;
+	height:50vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#organizers{
+	height:50vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .icon-bar {
 	background-color:white !important;
