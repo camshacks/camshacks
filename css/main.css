@@ -2,6 +2,44 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom:60px;
 }
+
+input{
+	outline: 0;
+	border-width: 0 0 2px 0;
+	border-color: white;
+	background: transparent;
+	font-family:'Montserrat',Helvetica,Arial,sans-serif !important;
+	font-size: 18px;
+	color: white;
+	font-weight: 100;
+	width: 100%;
+	padding-top:.5em;
+	padding-bottom:.5em;
+}
+input.button {
+    font-family:"Montserrat",Arial,sans-serif !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 185px;
+    height: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    line-height: 2px;
+    border-radius: 40px;
+    color:#2980b9;
+}
+
+input.button:focus, input[type="button"]:focus {
+    outline: none;
+    cursor: pointer;
+}
+input.button:hover{
+	color:black;
+}
 .instagram-icon:before{
 	content: '\f215';
 	font: normal 16px/1 'Genericons';
@@ -175,6 +213,9 @@ p {
 }
 .belizeHole{
 	background-color: #2980b9;
+}
+.belizeHole-text{
+	color:#2980b9;
 }
 #apply{
 	height:50vh;
