@@ -286,6 +286,9 @@ hr{
 .row{
 	padding-bottom:20px;
 }
+.white-text{
+	color:white;
+}
 *,
 :after,
 :before {
