@@ -273,9 +273,7 @@ hr{
 }
 #organizers{
 	height:50vh;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+
 }
 .icon-bar {
 	background-color:white !important;
@@ -354,4 +352,26 @@ hr{
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+}
+.organizer-img-block img{
+	width:100%;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+    opacity:.3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:white;
+}
+.circle-image{
+	border-radius:50%;
+}
+.condensed-p{
+	line-height: .5px;
 }
