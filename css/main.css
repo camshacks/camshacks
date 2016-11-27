@@ -280,6 +280,12 @@ hr{
 .icon-bar {
 	background-color:white !important;
 }
+.card{
+	padding-bottom:1em;
+}
+.row{
+	padding-bottom:20px;
+}
 *,
 :after,
 :before {
