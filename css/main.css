@@ -1,8 +1,16 @@
 body{
 	font-family: 'Montserrat', sans-serif;
-	margin-bottom:60px;
+	overflow-x:hidden;
 }
-
+.container {
+     padding-right: 0; /*15px in bootstrap.css*/
+     padding-left: 0;  /*idem*/
+     margin-right: auto;
+     margin-left: auto;
+}
+#applybutton{
+	margin-bottom: 2em;
+}
 input{
 	outline: 0;
 	border-width: 0 0 2px 0;
@@ -61,9 +69,8 @@ height: 100%;
 div{
 	padding:0;
 }
-
 .hero {
-background-image:url('https://media.giphy.com/media/3oAt1OlUKM1flwPz1K/giphy.gif');
+background-image:url('https://media.giphy.com/media/3orif94N8RYTuYNYR2/giphy.gif');
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -313,10 +320,6 @@ hr{
   background-size: 14px auto;
   border-radius: 50%;
   z-index: 2;
-  -webkit-animation: bounce 2s infinite 2s;
-  animation: bounce 2s infinite 2s;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
 }
 
 .scroll-down:before {
@@ -330,28 +333,6 @@ hr{
     content: "";
     border: 2px solid white;
     border-width: 0px 0 2px 2px;
-}
-
-@keyframes bounce {
-  0%,
-  100%,
-  20%,
-  50%,
-  80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-  60% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
 }
 .organizer-img-block img{
 	width:100%;
