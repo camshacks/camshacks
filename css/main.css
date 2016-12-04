@@ -11,6 +11,9 @@ body{
 #applybutton{
 	margin-bottom: 2em;
 }
+.btn{
+	font-family: "Ubuntu";
+}
 input{
 	outline: 0;
 	border-width: 0 0 2px 0;
@@ -25,7 +28,7 @@ input{
 	padding-bottom:.5em;
 }
 input.button {
-    font-family:"Montserrat",Arial,sans-serif !important;
+    font-family:"Ubuntu",Arial,sans-serif !important;
     text-transform: uppercase;
     font-size: 18px;
     width: 185px;
